@@ -1,0 +1,97 @@
+
+.one {
+    padding-top: 2%;
+    cursor: pointer;
+}
+
+.two {
+    padding-top: 2%;
+}
+
+.two {
+
+    input[type="text"],
+    input[type="password"] {
+        width: 30%;
+        padding: 10px;
+        margin: 5px 0 22px 0;
+        display: inline-block;
+        border: 1px solid rgb(28, 27, 27);
+        background-color:white;
+        border-top-left-radius:10%;
+        border-top-right-radius: 10%;
+        border-bottom-left-radius: 10%;
+        border-bottom-right-radius: 10%;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+        font-weight: 500;
+    } 
+}
+.two input:hover{
+    border: 2px solid #3cb4e3;
+}
+
+ button{
+    width: 480px;
+    height: 40px;
+    border: none;
+    background-color:#3796fc;
+    color: white;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+ }
+ button:hover{
+    background-color: #0563c7;
+    cursor: pointer;
+ }
+ button:active{
+    background-color: #3796fc;
+ }
+ .five{
+    padding-top:2% ;
+ }
+ .five a{
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: #0271e7;
+    font-size: 16px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 1000px;
+ }
+ .five a:hover{
+    text-decoration: underline;
+    width: 30%;
+ }
+ .five a:visited{
+    border: 2px double #3796fc;
+    width: 30%;
+    height: 40px;
+    border-radius: 2%;
+    box-shadow: #3796fc;
+ }
+ .last {
+    width:100%;
+    height: 20px;
+    background-color: rgb(230, 229, 229);
+    position: fixed;
+    bottom: 0%;
+    padding-top: 0.7%;
+    padding-bottom: 0.7%;
+    font-size: 20px;
+ }
+ .last a{
+   text-decoration: none;
+   color: #3796fc;
+   font-weight: 400;
+ }
+ .last:hover{
+    text-decoration: underline;
+    color: #0563c7;
+ }
+.last a:active{
+   color: orangered;   
+ }
+.last a:active{
+   color: orangered;
+ }
+ 
